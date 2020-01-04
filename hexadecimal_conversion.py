@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Created by: Trinity Armstrong
-# Created on: January 2019
-# This program calculates your average grade
+# Created on: January 2020
+# This function converts a word to hexadecimal numbers
 
 
 def convert(user_word):
-    # This function converts a word to Unicode hexadecimal
+    # This function converts characters of a word to hexadecimal numbers
 
     # Dictionaries and lists
     hexadecimal = {}
@@ -78,9 +78,9 @@ def convert(user_word):
 
 
 def main():
-    # This function
+    # This function outputs user input and the converted hexadecimal number
 
-    # Intput
+    # Input
     word = input("enter a word: ")
     print("")
 
